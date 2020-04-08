@@ -1,0 +1,16 @@
+table{
+    margin: 10px;
+}
+table, tr, th, td{
+    border: solid thin grey;
+    padding: 8px;
+    border-collapse: collapse;
+    text-align: center ;
+
+    border-top-style: none;
+}
+
+th{
+    background-color: grey;
+    color: aliceblue;
+}
