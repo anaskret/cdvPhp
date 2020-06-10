@@ -39,6 +39,9 @@
         $birthday = $_POST['birthday'];
         $city=1;
 
+        // szyfrowanie hasła za pomocą Argon2ID
+        $pass = password_hash($pass, PASSWORD_ARGON2ID);
+
         require_once './connect.php';
 
         if($conn->connect_errno){
